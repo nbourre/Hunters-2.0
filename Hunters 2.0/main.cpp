@@ -273,7 +273,9 @@ void CheckHit(RenderWindow& win)
 
 void InitResource()
 {
+	
 	window.create(sf::VideoMode(sf::VideoMode::getDesktopMode()),"", sf::Style::Fullscreen);
+	//window.create(sf::VideoMode(sf::VideoMode::getDesktopMode()), "", sf::Style::Resize);
 	menu.AddItem("Commencer");
 	menu.AddItem("Quitter");
 	font.loadFromFile("OpenSans-Regular.ttf");
